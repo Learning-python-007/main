@@ -23,3 +23,18 @@ print(name)
 
 # f format string - special string + variabile cand add in "" but use {} and before line add f
 print(f"Hello, {name}")
+
+# remove white space from str
+print("line 28")
+name = name.strip()
+# Capitalize user name's first letter e.g. Tatiana gavrila => capitalize() function
+name = name.capitalize()
+# Capitalize user name's every first letter from each word e.g. Tatiana Gavrila => title() function
+name = name.title()
+
+#can use more than one function - can combine
+name = name.strip().title()
+
+#better and easy to read:
+name = input("What is your name? ").strip().title()
+print(f"Hello, {name}")
