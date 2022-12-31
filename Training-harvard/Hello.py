@@ -38,3 +38,5 @@ name = name.strip().title()
 #better and easy to read:
 name = input("What is your name? ").strip().title()
 print(f"Hello, {name}")
+
+print("line 42")
